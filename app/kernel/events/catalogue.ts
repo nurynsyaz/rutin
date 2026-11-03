@@ -1,5 +1,5 @@
 import type { FileId, RoutineId, UserId } from '../ids'
-import type { Permission, Role } from '../auth'
+import type { Permission, Role } from '../../contexts/identity/domain/types'
 
 interface Base {
     v: 1
