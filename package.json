@@ -1,0 +1,41 @@
+{
+  "name": "Rutin",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@date-fns/tz": "^1.5.0",
+    "@nuxt/eslint": "^1.17.0",
+    "@nuxt/fonts": "^1.2.0",
+    "@nuxt/icon": "^2.6.2",
+    "@nuxtjs/i18n": "^10.6.0",
+    "@pinia/nuxt": "^1.0.3",
+    "@vite-pwa/nuxt": "^1.1.1",
+    "date-fns": "^4.4.0",
+    "idb-keyval": "^6.3.0",
+    "mitt": "^3.0.1",
+    "nuxt": "^4.6.3",
+    "pinia": "^4.1.0",
+    "pinia-plugin-persistedstate": "^4.7.1",
+    "vue": "^3.5.44",
+    "vue-router": "^5.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.3.4",
+    "@playwright/test": "^1.64.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitest/coverage-v8": "5.0.5",
+    "eslint": "^10.14.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "6.0.3",
+    "vitest": "^5.0.5",
+    "vue-tsc": "^3.3.14"
+  }
+}
